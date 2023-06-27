@@ -8,7 +8,7 @@ function handleResponseFromAPI(promise) {
   return promise
     .then(() => dataObject)
     .catch(() => errMessage)
-    .finally(() => successMessage);
+    .finally(() => console.log(successMessage));
 }
 
 export default handleResponseFromAPI;
