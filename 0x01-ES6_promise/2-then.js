@@ -3,7 +3,7 @@ function handleResponseFromAPI(promise) {
     status: 200,
     body: 'success',
   };
-  const errMessage = Error('');
+  const errMessage = Error();
   const successMessage = 'Got a response from the API';
   return new Promise((resolve, error) => {
     if (promise) {
