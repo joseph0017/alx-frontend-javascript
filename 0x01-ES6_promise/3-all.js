@@ -14,5 +14,3 @@ function handleProfileSignup() {
 }
 
 export default handleProfileSignup;
-
-handleProfileSignup();
